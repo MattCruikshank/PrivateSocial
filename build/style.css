@@ -41,6 +41,7 @@ nav.site {
   font-family: system-ui, sans-serif;
   font-size: 0.9rem;
 }
+nav.site .repo { margin-left: auto; }
 a { color: var(--accent); }
 h1, h2, h3 { line-height: 1.25; font-family: system-ui, sans-serif; }
 h1 { font-size: 2rem; margin-top: 2rem; }
