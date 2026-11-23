@@ -34,7 +34,8 @@ main, nav.site, footer {
 }
 nav.site {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--rule);
