@@ -44,4 +44,8 @@ Do you want to integrate with other federated networks? *To be written.*
 
 *To be written.*
 
+## 11. Modularity and sandboxing
+
+Is the server one monolithic program, or a host that runs separately sandboxed apps (mail, feed, chat and so on), each with its own storage and only the capabilities the host grants it? It is a spectrum, with monolithic at one end and fully modular and sandboxed at the other. *To be written.*
+
 [← Back to the case](index.md)
