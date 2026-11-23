@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Rebuild docs/ from src/ and stage it, so the committed HTML never drifts
+# from the Markdown. Enable once per clone:
+#   git config core.hooksPath .githooks
+set -euo pipefail
+root="$(git rev-parse --show-toplevel)"
+"$root/build/build.sh"
+git -C "$root" add docs
